@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.content3 .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.content3{
+    padding-top: 5rem;
+}
+.title h3{
+    font-family: 'Jost',sans-serif;
+    font-size: 4.6rem;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.title h4{
+    font-family: 'Jost',sans-serif;
+    font-size: 1.79rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.red-clr{
+    color: #f66;
+    cursor: pointer;
+}
+.red-clr:hover{
+    color: red;
+}
+.download{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #fafafa;
+}
+.download h2{
+    font-family: 'Jost',sans-serif;
+    font-size: 4.6rem;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.download p{
+    font-family: 'Jost',sans-serif;
+    font-size: 1.79rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.download .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.window-btn{
+    font-family: "Jost", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    background-color: #f66 !important;
+    border-color: #f66 !important;
+    color: #fff !important;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    align-items: center;
+    margin: .6rem .6rem;
+    border: none;
+}
+.window-btn:hover {
+    background-color: #f80101 !important;
+    color: #fff !important;
+}
+.mac-btn{
+    font-family: "Jost", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    background-color: #6592e6 !important;
+    border-color: #6592e6 !important;
+    color: #fff !important;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+    align-items: center;
+    margin: .6rem .6rem;
+    border: none;
+}
+.mac-btn:hover {
+    background-color: #0056b3 !important;
+    color: #fff !important;
+}

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+
+.section-body{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.section-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-head h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300 !important;
+    line-height: 1.2;
+    text-align: center;
+}
+.line{
+    width: 60px !important;
+    height: 1.5px !important;
+    background-color: black !important;
+}
+.sect-para{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.4rem !important;
+    text-align: center;
+    padding-top: 20px;
+}
+.section-phases{
+    display: flex;
+    padding-top: 3rem;
+}
+.phase h2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+}
+.phase p{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+.para-part h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.4rem;
+}
+.para-part p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Dosis', sans-serif !important;
+    font-size: 1rem;
+}
+.phase a{
+    color: #ffbc00 !important;
+}
+.icon-container{
+    padding-bottom: 16px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container i{
+    font-size: 38px;
+    color: white;
+    background-color:  rgb(68, 68, 68);
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phase:hover .icon-container i{
+    background-color: #ffbc00 !important;
+    transition: 0.3s;
+}
+.icon-nmbr{
+    top:0;
+    margin-right: 65px;
+    margin-top: 22px;
+}
+.icon-container .icon-nmbr {
+    text-align: center;
+    width: 2.4rem;
+    line-height: 2.4rem;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    background-color: #ffbc00 !important;
+    border-radius: 50%;
+    color: #000000;
+    z-index: 1;
+    font-size: 0.9rem;
+    font-family: 'Dosis', sans-serif;
+}
+.icon-container .icon-nmbr:hover{
+    background-color: #444444;
+    transition: 0.3s;
+}
+.phase-icon{
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 55px;
+    margin-bottom: 2rem;
+    display: inline-flex;
+}
+.arrow .fas{
+    font-size: 32px;
+    color: #444444;
+    opacity: 0.4;
+    margin-left: 60px;
+}
+
+@media screen and (max-width:320px) {
+    .sect-head{
+        font-size: 20px !important;
+    }
+    .line{
+        width: 40px !important;
+        height: 1.8px !important;
+    }
+    .sect-para{
+        font-size: 18px !important;
+    }
+    .section-phases{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .icon-nmbr{
+        top: 0 !important;
+    }
+
+    .i-num2{
+        margin-right: 6rem !important;
+    }
+    .i-num3{
+        margin-right: 6rem !important;
+    }
+    .i-num4{
+        margin-right: 6rem !important;
+    }
+    .phase h2{
+        font-size: 18px !important;
+    }
+    .phase p{
+        font-size: 16px !important;
+    }
+    .arrow .fas{
+        display: none;
+        margin-left: 0px !important;
+        font-size: 0px !important;
+    }
+}
+@media screen  and (max-width:425px) {
+    .sect-head{
+        font-size: 20px !important;
+    }
+    .line{
+        width: 40px !important;
+        height: 1.8px !important;
+    }
+    .sect-para{
+        font-size: 18px !important;
+    }
+    .section-phases{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .icon-nmbr{
+        top: 0 !important;
+    }
+ 
+    .i-num2{
+        margin-right: 9rem !important;
+    }
+    .i-num3{
+        margin-right: 9rem !important;
+    }
+    .i-num4{
+        margin-right: 5.5rem !important;
+    }
+    .phase h2{
+        font-size: 18px !important;
+    }
+    .phase p{
+        font-size: 16px !important;
+    }
+    .arrow .fas{
+        display:none;
+        margin-left: 0px !important;
+        font-size: 0px !important;
+    }
+}
+@media screen  and (max-width:768px) {
+    .sect-head{
+        font-size: 20px !important;
+    }
+    .line{
+        width: 40px !important;
+        height: 1.8px !important;
+    }
+    .phase{
+        text-align: center;
+    }
+    .phase-icon{
+        display: flex;
+        justify-content: space-around;
+    }
+    .icon-container i{
+        width: 138px !important;
+        height: 138px !important;
+        font-size: 40px !important;
+    }
+    .sect-para{
+        font-size: 18px !important;
+    }
+    .section-phases{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .icon-nmbr{
+        width: 2.5em !important;
+        line-height: 2.5em !important;
+        font-size: 0.99rem !important;
+    }
+ 
+    .i-num2{
+        margin-right: 6rem !important;
+    }
+    .i-num3{
+        margin-right: 7.5rem !important;
+    }
+    .i-num4{
+        margin-right: 5.5rem !important;
+    }
+    .arrow-icon .fas{
+        font-size: 0px !important;
+        margin-left: 0px !important;
+    }
+    .phase h2{
+        font-size: 18px !important;
+    }
+    .phase p{
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width: 1015px) {
+    .icon-nmbr{
+        margin-right: 22px ;
+    }
+}
+@media screen and (max-width: 990px) {
+    .icon-nmbr{
+        margin-right: 115px ;
+    }
+}
+@media screen and (max-width: 765px) {
+    .icon-nmbr{
+        margin-right: 207px ;
+    }
+}

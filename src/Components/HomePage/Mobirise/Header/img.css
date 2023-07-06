@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.bg-img {
+  padding-top: 8rem;
+  background-image: radial-gradient(
+    circle,
+    #fff,
+    #f6f0fc,
+    #f2e0f5,
+    #f2cfe9,
+    #f4bdd9,
+    #f3b0d2,
+    #f3a3cb,
+    #f296c3,
+    #ea8dcd,
+    #dc87d9,
+    #c783e7,
+    #a982f5
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.img-overlay{
+    opacity: 0.6;
+    background-color: rgb(255, 255, 255);
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.bg-img .row {
+  justify-content: center;
+}
+.header-btns {
+  display: flex;
+  justify-content: center;
+}
+.windows {
+  font-family: "Jost", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: .6rem 1.2rem;
+  border-radius: 4px;
+  background-color: #f66 !important;
+  border-color: #f66 !important;
+  color: #fff !important;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+  align-items: center;
+  margin: .6rem .6rem;
+  border: none;
+}
+.windows:hover {
+  background-color: #f80101 !important;
+  color: #fff !important;
+}
+.mac {
+  font-family: "Jost", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: .6rem 1.2rem;
+  border-radius: 4px;
+  background-color: #6592e6 !important;
+  border-color: #6592e6 !important;
+  color: #fff !important;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+  align-items: center;
+  margin: .6rem .6rem;
+  border: none;
+}
+.mac:hover {
+  background-color: #0056b3 !important;
+  color: #fff !important;
+}
+.header-part img {
+  margin-right: 20px;
+}
+.img-heading {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #6592e6;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.img-para {
+  font-family: "Jost", sans-serif;
+  font-size: 4.7rem;
+  line-height: 1.1;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-weight: 400;
+}
+.figure {
+  display: flex !important;
+  justify-content: center;
+  padding-top: 2.5rem;
+}

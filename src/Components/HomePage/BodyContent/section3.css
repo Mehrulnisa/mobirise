@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+
+.section-4{
+    display: flex;
+    background-color: #efefef;
+    flex-direction: row !important;
+}
+.section-body{
+    padding: 2.8rem !important;
+}
+.section4-content h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.section4-content h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    font-weight: 300;
+}
+.section4-content h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 1.6;
+}
+.list{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+}
+.list ul li{
+    margin-bottom: .5rem;
+    list-style: square;
+}
+.section-icons ul{
+ display: flex;
+ padding-left: 5px;
+}
+.section-icons i{
+    border-radius: 50%;
+    color: #ffffff;
+    display: block;
+    height: 3em;
+    line-height: 3em;
+    width: 3em;
+    background: #444444;
+    text-align: center;
+    font-size: 14px;
+}
+.section-icons ul li{
+    padding: 4px;
+    list-style: none;
+}
+.section-icons li a:hover i {
+    background-color: #ffbc00 !important;
+    transition: 0.3s;
+}
+@media screen and (max-width:320px) {
+    .section-body{
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 0rem !important;
+    }
+    .section4-content h1{
+        text-align: center !important;
+        font-size: 25px !important;
+    }
+    .section4-content h2{
+        text-align: center !important;
+        font-size: 16px !important;
+    }
+    .section4-content h3{
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+    .section-icons{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .section-img img{
+        width: -webkit-fill-available !important;
+        height: -webkit-fill-available !important;
+    }
+    .col-img{
+        padding: 0px !important;
+    }
+}
+@media screen and (min-width:320px) and (max-width:425px) {
+   .section-body{
+   padding: 3rem 1rem !important;
+   }
+    .section-body{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .section4-content h1{
+        text-align: center !important;
+        font-size: 25px !important;
+    }
+    .section4-content h2{
+        text-align: center !important;
+        font-size: 16px !important;
+    }
+    .section4-content h3{
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+    .section-icons{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .section-img img{
+        width: -webkit-fill-available !important;
+        height: -webkit-fill-available !important; 
+    } 
+    .col-img{
+        padding: 0px !important;
+    }
+}
+@media screen and (min-width:425px) and (max-width:768px) {
+    .section-img img{
+        width: -webkit-fill-available !important;
+        height: -webkit-fill-available !important; 
+    }
+    .col-img{
+        padding: 0px !important;
+
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .section-img img{
+        width: -webkit-fill-available !important;
+        height: -webkit-fill-available !important; 
+    }
+    .col-img{
+        padding: 0px !important;
+        place-self: center !important;
+    }
+}

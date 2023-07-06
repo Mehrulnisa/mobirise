@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.content1{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.content1 .card{
+    box-shadow: none;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.content1 .container-fluid{
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 84%;
+}
+.card-body{
+    background-color: #fafafa;
+    padding: 2rem !important;
+    border-radius: 4px;
+}
+.card-body i{
+    display: block;
+    font-size: 5rem;
+    background: linear-gradient(to left,#ff0a0a,#fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.card-body h5{
+    font-family: 'Jost',sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: 700 !important;
+    text-align: center;
+}
+.card-body p{
+    font-family: 'Jost',sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}

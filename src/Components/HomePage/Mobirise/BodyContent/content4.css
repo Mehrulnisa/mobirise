@@ -1,0 +1,56 @@
+.content-body{
+    padding: 5rem 3rem;
+}
+.content-body .row{
+    display: flex;
+    align-items: center;
+}
+.col-text{
+    text-align: right;
+    padding-right: 1.4rem;
+}
+.col-text h6{
+    font-family: 'Jost',sans-serif;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.col-text p{
+    font-family: 'Jost',sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.col-content{
+    padding-left: 1.4rem;
+    text-align: left;
+    padding-right: 0px;
+}
+.video-section{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #fafafa;
+}
+.section-heading-content{
+    text-align: center;
+}
+.section-heading-content h4{
+    font-family: 'Jost',sans-serif;
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+.section-heading-content h5{
+    font-family: 'Jost',sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.video-section .row{
+    justify-content: center;
+}
+iframe{
+    box-shadow: 0 10px 51px -19px rgb(0 0 0 / 34%);
+}
